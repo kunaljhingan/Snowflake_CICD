@@ -68,7 +68,7 @@ So end of the day we have 2 files:
 
 -- Add the publick key to the user:
 ALTER USER CICD_USER
-    SET RSA_PUBLIC_KEY = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsT6hbF4VpnhxQDjAoLlvTdQWCfxSYUljGBCFiE/WmfSZSOTKrWVSfua5PlR8xqUpA7zTLRRkBMj0ZEvTfHv0k7ldREorXYeYMiSWUPsfL9VZTiWr6bBG3FzVjjdGvhvfue0AvdsWsa+viKe1EB9Yeh2TKjPIc+KVVXy4hJl6JL5FPtoV1eHUOZRDxudbDOsrOXgrno6JBtwym5Z+z1g/Jo9xCRPSRoOD7COKXEAdGN4n0w3ZkyfeWsNVp8ADEPUp49GKjI4z2N7l2K31vaBvlXjCTr0rR3z2acf9N+CgcgmpZxCRql7MSuaXKGY80pl2gE2qHhi1ogmnnlS4jN0G6QIDAQAB';
+    SET RSA_PUBLIC_KEY = 'put_public_key_here';
 
 
 -- 7. Create the TECH schema and the monitoring table for CICD
